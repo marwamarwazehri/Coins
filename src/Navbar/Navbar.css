@@ -1,0 +1,268 @@
+.navbar {
+       display: flex;
+       gap: 10rem;
+       align-items: center;
+       justify-content: center;
+      padding-top:2rem;
+      scroll-behavior: smooth;
+      position: sticky;
+      top:0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color:whitesmoke;
+    padding-bottom:1rem;
+    z-index: 10;
+       
+      
+       
+       
+}
+
+.navbar h3 {
+       font-size: 20px;
+       color: black;
+}
+
+.navbar .links {
+       display: flex;
+       gap: 2rem;
+       font-size: 17px;
+}
+
+.navbar .links a{
+       position: relative;
+       color: black;
+       font-weight: 500;
+}
+
+.navbar .links a:hover {
+       color: rgb(218, 46, 218);
+}
+
+.navbar .links a::after {
+       content: '';
+       position: absolute;
+       left: 1px;
+       bottom: 0;
+       top: 23px;
+       width: 0;
+       height: 2px;
+       background-color:rgb(218, 46, 218);
+       transition: width 0.3s ease;
+
+}
+.navbar .nav-tweet{
+       color: black;
+}
+
+.navbar .links a:hover::after {
+       width: 100%;
+
+}
+
+.navbar .links .active {
+       color:rgb(218, 46, 218);
+}
+
+.navbar .links .active::after {
+
+       content: '';
+       position: absolute;
+       left: 1px;
+       bottom: 0;
+       top: 23px;
+       width: 100%;
+       height: 2px;
+}
+
+.circle {
+       
+display:none;
+       
+       
+}
+
+.circle .nav-icon .lines {
+font-size: 27px;
+color:black;
+       
+}
+.side-links{
+       display:none;
+       
+}
+.side-links a {
+       position: relative;
+       color: black;
+       font-weight: 700;
+}
+
+.side-links a:hover {
+       color:purple;
+}
+
+.side-links a::after {
+       content: '';
+       position: absolute;
+       left: 1px;
+       bottom: 0;
+       top: 23px;
+       width: 0;
+       height: 2px;
+       background-color: purple;
+       transition: width 0.3s ease;
+
+}
+
+.side-links a:hover::after {
+       width: 100%;
+
+}
+
+.side-links .active {
+       color: purple;
+}
+
+/*////////////////////////////////////////////////////////////////////*/
+/* Media query*/
+
+/* || small */
+@media screen and (max-width: 768px) {
+       .navbar .links {
+              display: none;
+       }
+
+       .circle {
+              display: flex;
+       }
+
+       .hide {
+              display: none;
+              
+       }
+
+       .side-bar {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              width:50%;
+               flex-direction: column;
+               gap: 3rem;
+               background-color: #fff;
+               height: 100vh;
+              position: fixed;
+               right:0rem;
+              top:0rem;
+              z-index:4;
+              
+              
+       }
+.cancel{
+       color: black;
+       font-size:27px;
+       position: relative;
+       bottom:24rem;
+       left:8rem;
+}
+
+       .hidden {
+              display: none;
+       }
+
+.nav-tweet{
+       display: none;
+}
+}
+
+@media screen and (max-width:494px) {
+.navbar {
+              gap:7rem;
+             
+       }
+.side-bar{
+width: 40%;
+}
+}
+
+@media screen and (max-width:376px) {
+       .navbar {
+              gap:5rem;
+
+       }
+.side-bar {
+       width:50%;
+}
+}
+
+@media screen and (max-width:317px) {
+       .navbar {
+              gap:3rem;
+
+       }
+.side-bar {
+       width: 60%;
+}
+}
+
+@media screen and (max-width:590px) {
+
+.side-bar {
+             
+              width:60%;
+              
+
+
+       }
+
+       .cancel {
+              margin-right:1rem;
+       }
+       
+}
+
+@media screen and (max-width:461px) {
+
+       .side-bar {
+
+              width: 60%;
+
+
+
+       }
+
+       .cancel {
+              margin-right:2rem;
+       }
+
+}
+@media screen and (max-width:430px) {
+
+       .side-bar {
+
+              width: 60%;
+
+
+
+       }
+
+       .cancel {
+              margin-right:4rem;
+       }
+
+}
+
+@media screen and (max-width:372px) {
+
+       .side-bar {
+
+              width: 60%;
+
+
+
+       }
+
+       .cancel {
+              margin-right:8rem;
+       }
+
+}
+

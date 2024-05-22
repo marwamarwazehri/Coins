@@ -1,0 +1,263 @@
+.Track{
+       display: flex;
+       flex-direction: column;
+        margin: auto;
+       max-width:800px;
+       margin-top:3rem;
+       margin-bottom:10rem;
+       scroll-margin-top:7rem;
+}
+
+.track-text{
+       display: flex;
+       max-width:800px;
+      
+       
+}
+
+.track-text h1{
+       font-size:66px;
+}
+
+.track-text h1 span {
+       font-size:60px;
+       background: linear-gradient(90deg, rgba(45, 0, 255, 1) 2%, rgba(156, 148, 202, 1) 38%, rgba(238, 106, 238, 1) 83%);
+       -webkit-background-clip: text;
+       background-clip: text;
+       color: transparent;
+}
+
+.track-text img.coin{
+      width:50px;
+      height:50px;
+      margin-top:1rem;
+      
+      
+      
+}
+
+.track-icons{
+       display: flex;
+       gap:4rem;
+       margin: auto;
+}
+
+.track-icons .icon img{
+       width:50px;
+       height:50px;
+}
+
+.track-icons p.price{
+       text-align: center;
+}
+
+
+/*//////////////////////////////////////////////////////////////////////*/
+
+@media screen and (min-width:1200px) {
+
+}
+
+@media screen and (min-width:922px) {}
+ @media screen and (min-width:768px) {}
+
+ @media screen and (max-width:842px) {
+.Track{
+       max-width:600px;
+}
+       .track-text {
+                     display: flex;
+                     max-width:600px;
+       
+       
+              }
+       
+              .track-text h1 {
+                     font-size:40px;
+              }
+       
+              .track-text h1 span {
+                     font-size:40px;
+                     color: rgb(205, 18, 205)
+              }
+       
+       }
+
+@media screen and (max-width:611px) {
+                     .Track {
+                            max-width:500px;
+                     }
+       
+                     .track-text {
+                            display: flex;
+                            max-width:500px;
+       
+       
+                     }
+       
+                     .track-text h1 {
+                            font-size:30px;
+                     }
+       
+                     .track-text h1 span {
+                            font-size:30px;
+                            color: rgb(205, 18, 205)
+                     }
+       
+}
+
+@media screen and (max-width:536px) {
+       .Track {
+              max-width:500px;
+       }
+
+       .track-text {
+              display: flex;
+              max-width:500px;
+
+
+       }
+
+       .track-text h1 {
+              font-size:30px;
+       }
+
+       .track-text h1 span {
+              font-size:30px;
+              color: rgb(205, 18, 205)
+       }
+.track-icons {
+      
+       gap:2rem;
+      
+}
+
+.track-icons .icon img {
+       width:40px;
+       height:40px;
+}
+
+}
+
+@media screen and (max-width:510px) {
+       .Track {
+              max-width:450px;
+       }
+
+       .track-text {
+              display: flex;
+              max-width:450px;
+
+
+       }
+
+       .track-text h1 {
+              font-size:25px;
+       }
+
+       .track-text h1 span {
+              font-size:25px;
+              color: rgb(205, 18, 205)
+       }
+
+       .track-icons {
+
+              gap:1rem;
+
+       }
+
+       .track-icons .icon img {
+              width:38px;
+              height:38px;
+       }
+
+}
+
+@media screen and (max-width:454px) {
+       .Track {
+              max-width:400px;
+       }
+
+       .track-text {
+              display: flex;
+              max-width:400px;
+
+
+       }
+
+       .track-text h1 {
+              font-size:25px;
+       }
+
+       .track-text h1 span {
+              font-size: 25px;
+              color: rgb(205, 18, 205)
+       }
+              .track-text img.coin {
+                     width:40px;
+                     height:40px;
+                     
+       
+       
+       
+              }
+
+       .track-icons {
+
+              gap: 1rem;
+
+       }
+
+       .track-icons .icon img {
+              width: 38px;
+              height: 38px;
+       }
+
+}
+
+@media screen and (max-width:386px) {
+       .Track {
+              max-width:350px;
+       }
+
+       .track-text {
+              display: flex;
+              max-width:350px;
+
+
+       }
+
+       .track-text h1 {
+              font-size:20px;
+       }
+
+       .track-text h1 span {
+              font-size:20px;
+              color: rgb(205, 18, 205)
+       }
+
+       .track-text img.coin {
+              width:35px;
+              height:45px;
+
+
+
+
+       }
+
+       .track-icons {
+
+              gap:1rem;
+
+       }
+
+       .track-icons .icon img {
+              width: 38px;
+              height: 38px;
+       }
+.track-icons p {
+       font-size:11px;
+}
+
+}
+

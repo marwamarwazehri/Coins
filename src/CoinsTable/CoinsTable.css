@@ -1,0 +1,116 @@
+.container {
+       max-width: 1140px;
+       margin: auto;
+       display: flex;
+       flex-direction: column;
+       scroll-margin-top:8rem;
+}
+
+.container h4{
+       font-size: 25px;
+       font-weight: 800;
+       color: #fff;
+       margin-left:2%;
+}
+.container .symbol{
+       text-decoration: underline;
+}
+
+.container .symbol:hover {
+       color: rgb(14, 0, 136);
+}
+.heading {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       background: linear-gradient(90deg, rgba(45, 0, 255, 1) 2%, rgba(156, 148, 202, 1) 38%, rgba(238, 106, 238, 1) 83%);
+       box-shadow: 0px 0px 12px #18191b;
+       border-radius: 8px;
+       margin: 1rem 1rem;
+       padding: .7rem 1rem;
+       font-weight: 700;
+}
+
+.coin-name {
+       
+}
+
+.coin-row {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       border-bottom: 1px solid rgb(124, 122, 122);
+       border-radius: 8px;
+      padding: .9rem 1rem;
+}
+
+.coin-row:hover {
+       transform: scale(1.04);
+       transition: .3s ease-in-out;
+       cursor: pointer;
+}
+
+img {
+       height: 40px;
+       margin-right: 8px;
+       width: auto;
+}
+
+.img-symbol {
+       display: flex;
+       align-items: center;
+}
+
+.buttons{
+       margin-left:35%;
+       margin-top: 1rem;
+}
+
+.page-btn {
+       width: 2rem;
+       height: 2rem;
+       background-color:whitesmoke;
+       border-color: transparent;
+       border-radius:50%;
+       cursor: pointer;
+       margin: 0.5rem;
+       color: black;
+       transition: var(--transition);
+}
+
+.active-btn {
+background: linear-gradient(90deg, rgba(108, 17, 151, 1) 33%, rgba(196, 12, 196, 1) 88%);
+border:1px solid white;
+color: #fff;
+}
+
+@media screen and (max-width: 720px) {
+       .hide-mobile {
+              display: none;
+       }
+}
+
+@media screen and (max-width:611px) {
+       .buttons {
+                     margin-left:30%;
+              }
+}
+
+@media screen and (max-width:454px) {
+       .buttons {
+                     margin-left:20%;
+              }
+
+}
+
+@media screen and (max-width:386px) {
+.buttons {
+              margin-left:15%;
+       }
+}
+
+@media screen and (max-width:335px) {
+       .buttons {
+              margin-left: 10%;
+       }
+}

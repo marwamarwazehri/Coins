@@ -1,0 +1,158 @@
+.join{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       scroll-margin-top:6rem;
+      
+       
+       
+}
+
+.join-text{
+display: flex;
+max-width:500px;
+
+
+}
+
+.join-text h1 {
+       font-size:50px;
+}
+
+.join-text h1 span {
+       font-size: 60px;
+       background: linear-gradient(90deg, rgba(45, 0, 255, 1) 2%, rgba(156, 148, 202, 1) 38%, rgba(238, 106, 238, 1) 83%);
+       -webkit-background-clip: text;
+       background-clip: text;
+       color: transparent;
+}
+
+.join-text img.coin {
+       width: 50px;
+       height: 50px;
+       margin-top:4rem;
+}
+
+.join button.join-btn{
+
+width:140px;
+height:40px;
+border-radius:20px;
+background: linear-gradient(90deg, rgba(45, 0, 255, 1) 2%, rgba(156, 148, 202, 1) 38%, rgba(238, 106, 238, 1) 83%);
+border: none;
+color: white;
+margin-top:3rem;
+cursor: pointer;
+
+
+}
+
+.join-contact{
+       display: flex;
+       margin-top:7rem;
+       justify-content: space-between;
+        width: 100%;
+       padding-left:3rem;
+       padding-right:3rem;
+       
+}
+
+.contact-links{
+       display: flex;
+       gap: 1rem;
+       margin-top:6rem;
+}
+
+.contact-links .con{
+       font-size: 27px;
+}
+
+.join-contact img.bag{
+       width: 300px;
+       height: 300px;
+       transform: scaleX(-1);
+}
+
+.join-contact img.coins {
+       width:200px;
+       height:200px;
+       
+}
+
+
+/*//////////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width:794px){
+.join{
+       margin-top:20rem;
+}
+
+.join-contact img.coins {
+       display: none;
+}
+
+.join-contact {
+
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-bottom: 4rem;
+
+}
+
+
+}
+
+@media screen and (max-width:403px) {
+.join-text {
+              display: flex;
+              max-width:400px;
+
+
+       }
+
+       .join-text h1 {
+              font-size:40px;
+       }
+
+       .join-text h1 span {
+              font-size:40px;
+              
+       }
+.join-text img.coin {
+       width:40px;
+       height:40px;
+       
+}
+
+}
+
+@media screen and (max-width:365px) {
+       .join-text {
+              display: flex;
+              max-width:400px;
+
+
+       }
+
+       .join-text h1 {
+              font-size:30px;
+       }
+
+       .join-text h1 span {
+              font-size:30px;
+
+       }
+
+       .join-text img.coin {
+              width: 40px;
+              height:40px;
+
+       }
+
+       .join p{
+              width:200px;
+       }
+
+}
