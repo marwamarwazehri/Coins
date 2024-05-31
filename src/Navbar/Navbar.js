@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-       <h3>COINDOM</h3>
+       <h3>COINS</h3>
 
        <div className='links'>
        <a href="#track" className={activeLink === 0 ? 'active' : ''} onClick={() => handleLinkClick(0)}>Home</a>
